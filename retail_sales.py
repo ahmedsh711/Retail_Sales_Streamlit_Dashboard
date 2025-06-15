@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 st.set_page_config(layout="wide",page_icon="📈")
 
 # Read CSV Dataset:
-df = pd.read_csv(r"C:\00-Shobaki\Data Science\Epsolin AI\Revive\Med_Project\Data\Cleaned\cleaned_retail_store_sales.csv", parse_dates = ["Date"])
+df = pd.read_csv("cleaned_retail_store_sales.csv", parse_dates = ["Date"])
 
 # Prepare
 st.title("Retail Sales Analytics Dashboard")
